@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Userinfo from './components/Wallet';
 import Order from './components/Order';
 import { Toaster } from 'react-hot-toast';
+import Sidebar from './components/resNavBar';
 
 
 class App extends React.Component {
@@ -46,7 +47,7 @@ class App extends React.Component {
       <Router>
         <div className='app-wrapper'>
           <Toaster />
-          <NavBar />
+          <Sidebar />
           <Routes>
             {this.state.isConnected && <Route path="/" element={<Userinfo iexec={this.state.iexec} id={this.state.userAddress}/>} />}
             {this.state.isConnected && <Route path="/manage-nft" element={<ManageDataset iexec={this.state.iexec} id={this.state.userAddress} />} />}                      

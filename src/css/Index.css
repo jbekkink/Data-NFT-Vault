@@ -181,4 +181,71 @@ td:last-child {
   .activity-box h4 {
     font-size: 2.2vmin!important;
   }
+
+  .navbar {
+    width: 7%!important;
+    padding: 0!important;
+  }
+
+  .nav-option {
+    border-radius: 0px!important;
+    text-align: center!important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dataset-upload, .display, .dataset-display, .wallet-display {
+    margin-left: 7%!important;
+    padding: 0.5em!important;
+  }
+
+  .dataset-upload {
+    margin: 0em!important;
+  }
+  .link-text, .logotitle, .powered-by,.logo {
+    display: none!important;
+  }
+  .credit {
+    width: 93%!important;
+    margin-left: 7%!important;
+  }
+  .wallet-display {
+    margin-right: 30%!important;
+}
+.user-display {
+    width: 30%!important;
+}
+
+.manage-container {
+    grid-template-columns: 1fr!important;
+    gap: 1em!important;
+}
+
+
+}
+
+
+
+@media (max-width: 700px) {
+    .grid-buttons {
+        gap: 2em!important;
+    }
+    .grid-title {
+        flex-direction: column;
+    }
+    .activity-box {
+        font-size: 1em!important;
+    }
+    .activity-box div {
+        flex-direction: column!important;
+    }
+}
+
+
+
+@media all and (max-width:30em){
+    button{
+    display:block;
+    margin:0.4em auto;
+    }
 }

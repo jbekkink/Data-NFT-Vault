@@ -1,0 +1,90 @@
+.app-wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.navbar {
+    text-align: left;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    width: 18%;
+    padding: 1em;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex; 
+}
+
+.top-section {
+    display: flex; 
+    align-items: center;
+    gap: 0.5em;
+}
+
+.logotitle {
+    font-size: 25px;
+}
+
+.nav-option {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.menu-icon {
+    display: flex;
+}
+
+.nav-option {
+    color:rgb(216, 216, 216);
+    display: flex;
+    transition: all 0.5s;
+    padding: 1.2em;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-option .material-symbols-outlined {
+    color:rgb(216, 216, 216)!important;
+}
+.nav-option:hover {
+    background-color: #16161f;
+    color: white;
+    box-shadow: 0 0 20px rgba(26, 23, 81, 0.303);
+}
+
+.nav-option.active {
+    background-color: #19192a;
+    box-shadow: 0 0 20px rgba(26, 23, 81, 0.39);
+}
+
+.nav-option .material-symbols-outlined:hover {
+    color:rgb(216, 216, 216)!important;
+}
+
+.logo {
+    width: 80%;
+}
+.powered-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.powered-by {
+    font-size: 2.2vmin!important;
+    font-weight: 700;
+}
