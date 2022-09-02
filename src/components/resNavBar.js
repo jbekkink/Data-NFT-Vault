@@ -4,23 +4,6 @@ import logo from '../assets/logo-white.svg';
 import { Link, NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
-    const [isFull, setIsFull] = useState(true); 
-    const toggle = () => {
-        setIsFull (!isFull);
-    }
-
-    useEffect(() => {
-        const items = [document.querySelector('.dataset-upload'), document.querySelector('.display'), document.querySelector('.dataset-display'),document.querySelector('.wallet-display')];
-
-        if(!isFull) {
-            for(let i = 0; items.length; i++) {
-                if(items[i]) {
-                    console.log(i);
-                }
-            }
-        }
-    }, [isFull]);
-
     const menuItem = [
     {
         path: "/",
@@ -47,24 +30,24 @@ const Sidebar = () => {
     ];
     return (
         <div className='nav-container'>
-            <div className='navbar' style={{width: isFull ? "18%" : "5%"}}>
+            <div className='navbar'>
                 <div className="top-section">
-                    <h1 className='logotitle' style={{display: isFull ? "block": "none"}}>Data NFT Vault</h1>
+                    <h1 className='logotitle' >Data NFT Vault</h1>
                 </div>
                 <div className='menu-items'>
                 {
                     menuItem.map((item, index) => (
                         <NavLink to={item.path} key={index} className="nav-option">
                             <div className='menu-icon'>{item.icon}</div>
-                            <div className="link-text" style={{display: isFull ? "block": "none"}}>{item.name}</div>
+                            <div className="link-text">{item.name}</div>
                         </NavLink>
 
                     ))
                 }
                 </div>
                 <div className='powered-box' >
-                    <p className='powered-by' style={{display: isFull ? "block": "none"}}>Powered by</p>
-                    <Link to="/"><img style={{display: isFull ? "block": "none"}}className="logo" alt="logo" src={logo}/></Link>
+                    <p className='powered-by'>Powered by</p>
+                    <Link to="/"><img className="logo" alt="logo" src={logo}/></Link>
                 </div>
             </div>
         </div>
