@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import '../css/resNavBar.css';
 import logo from '../assets/logo-white.svg';
 import { Link, NavLink } from 'react-router-dom';

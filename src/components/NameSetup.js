@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import '../css/NameSetup.css';
 import { claimUsername, setUsername } from './iexec';
 import {uploadFailed, uploadSuccessful, loadingNotif} from './Notifications';
