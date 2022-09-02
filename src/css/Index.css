@@ -178,9 +178,6 @@ td:last-child {
     flex-direction: column!important;
     font-size: 2vmin!important;
   }
-  .activity-box h4 {
-    font-size: 2.2vmin!important;
-  }
 
   .navbar {
     width: 7%!important;
