@@ -3,7 +3,6 @@ import ManageDataset from './components/NftOverview';
 import CreateNft from './components/CreateNft';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {init, refreshUser} from './components/iexec';
-import NavBar from './components/NavBar';
 import Userinfo from './components/Wallet';
 import Order from './components/Order';
 import { Toaster } from 'react-hot-toast';

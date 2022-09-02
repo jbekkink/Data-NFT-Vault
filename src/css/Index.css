@@ -221,6 +221,10 @@ td:last-child {
     gap: 1em!important;
 }
 
+.name-box {
+    margin-left: 12.5%!important;
+}
+
 
 }
 
@@ -238,6 +242,9 @@ td:last-child {
     }
     .activity-box div {
         flex-direction: column!important;
+    }
+    .input-row {
+        flex-direction: column;
     }
 }
 
