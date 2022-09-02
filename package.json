@@ -1,0 +1,58 @@
+{
+  "name": "dataset-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@apollo/react-hooks": "^4.0.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.0.0",
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "iexec": "^7.2.0",
+    "react": "^18.2.0",
+    "react-date-object": "^2.1.5",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "subscriptions-transport-ws": "^0.11.0",
+    "ts-invariant": "^0.10.3",
+    "urql": "^2.2.2",
+    "web-vitals": "^2.1.4",
+    "ws": "^8.8.1"
+  },
+  "scripts": {
+    "start": "PORT=4000 react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0"
+  }
+}

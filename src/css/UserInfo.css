@@ -1,0 +1,214 @@
+.wallet-display {
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    word-break: break-all;
+}
+
+.welcome-text {
+    text-align: left;
+    word-break: break-all;
+    width: 100%; 
+}
+
+.your-datasets {
+    margin-top: 2em;
+    width: 100%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    transition: 0.5s;
+}
+
+.section-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between!important;
+    width: 100%; 
+}
+  .your-datasets button {
+    background-color: #2c3748;
+    color: rgb(230, 230, 230);
+    padding: 0.75em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 15px;
+    border: 0;
+  }
+  .your-datasets button:hover {
+    background-color: #1a1f2c;
+  }
+
+.activity-boxes {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.activity-box {
+    background-color: #141017;
+    border: 1px solid rgb(22, 22, 24);
+    border-radius: 5px;
+    color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    cursor: pointer;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+.activity-box:hover {
+    background-color: rgb(7, 7, 7);
+}
+.activity-box div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-box h4 {
+    font-size: 2.5vmin;
+}
+.price{
+    color: rgb(60, 231, 151);
+    
+}
+.bottom-info {
+    color: rgb(199, 199, 199);
+}
+
+.userdisplay-label {
+    font-size: 2.2vmin;
+    color: rgb(199, 199, 199);
+}
+
+.user-display{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: 100%;
+    width: 18%;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    right: 0;
+    background-color: rgb(7, 7, 7);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.user-display h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.user-display-box:first-child {
+    border: 1px solid white; 
+    color: white;
+}
+
+
+.user-display-box {
+    border: 1px solid rgb(23, 23, 26);
+    padding: 0.5em;
+    display: flex; 
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: #141017;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.user-addr {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color:#f6e57c;
+}
+
+.userinfo-name {
+    display: flex; 
+    flex-direction: column;
+    gap: 0.5em;
+    border: 1px solid rgb(48, 48, 48);
+    padding: 0.5em;
+    border-radius: 5px;
+}
+.userinfo-name input, button {
+    padding: 0.5em;
+    
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    word-break: break-all;
+    gap: 2em;
+    border: 1px solid rgb(23, 23, 26);
+    border-radius: 5px;
+    background-color: #141017;
+    padding: 1em;
+    width: 100%;
+    cursor: pointer;
+    color: rgb(230, 230, 230);
+    text-align: left;
+    transition: 0.5s;
+    box-shadow: 0 0 5px rgba(12, 9, 65, 0.22);
+}
+
+.box:hover {
+    background-color: rgb(7, 7, 7);
+}
+
+.box .box-info {
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+}
+.box .box-uploaded {
+    display: flex;
+    flex-direction: column;
+    color: rgb(199, 199, 199);
+    text-align: left;
+    font-size: 2vmin;
+}
+
+.toptext {
+    font-size: 1.75vmin;
+    color: rgb(199, 199, 199);
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .box-info p {
+    font-size: 2vmin;
+}
+
+.box h4 {
+    font-size: 3.3vmin;
+}
+
+.box .useraddr {
+    color: #FA735B;
+}

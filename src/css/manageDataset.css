@@ -1,0 +1,56 @@
+.dataset-display{
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+    width: 100%;
+    margin-left: 18%;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+}
+
+.your-nfts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    word-wrap: break-word;
+    width: 100%;
+    gap: 2em;
+}
+
+.your-nfts .boxes {
+    gap: 3em;
+}
+.your-nfts .boxes .box {
+    animation: 1s fadeIn;
+}
+
+.grid-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.grid-buttons {
+    display:flex; 
+    gap: 5em;
+}
+
+.grid-buttons button {
+    background-color: #2c3748;
+    color: rgb(230, 230, 230);
+    padding: 0.75em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 15px;
+    border: 0;
+}
+.grid-buttons button:hover {
+    background-color: #1a1f2c;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

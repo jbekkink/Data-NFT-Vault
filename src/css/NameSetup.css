@@ -1,0 +1,41 @@
+.username-button {
+    padding: 1em;
+}
+
+.name-box {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    white-space: pre-wrap;
+    word-break: break-word;
+    text-align: left;
+    background-color: #0D0D12;
+    border: 1px solid rgb(48, 48, 48);
+    color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding: 2em;
+    gap: 1em;
+    position: fixed;
+    margin-top: 10%;
+    height: 50%;
+    margin-left: 25%;
+    opacity: 1;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.47);
+    width: 50%;
+}
+
+.input-row {
+    display: flex; 
+    gap: 1em;
+    
+}
+
+.close-button {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    padding: 0.7em;
+    margin: 0.5em;
+}

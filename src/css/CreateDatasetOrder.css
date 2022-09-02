@@ -1,0 +1,142 @@
+.display {
+    margin-left: 18%;
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.manage-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 2em;
+}
+
+.create-order-box, .open-order-box, .filled-order-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border: 1px solid rgb(23, 23, 26);
+    border-radius: 5px;
+    gap: 2em;
+    background-color: #141017;
+    width: 100%;
+    color: rgb(230, 230, 230);
+    overflow: hidden;  /* NEW */
+}
+
+.create-order-box {
+    padding: 2em;
+}
+
+.open-order-box, .filled-order-box {
+    padding-top: 2em;;
+}
+
+.title-rent {
+    background-image: linear-gradient(43deg, #7d26da 10%, #FA735B 35%, #FFEA61 70%);
+    background-clip: text;
+    color: transparent;
+}
+
+.order-price-vol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    text-align: left;
+}
+
+.intro-text {
+    color:rgb(170, 170, 170);
+}
+
+.order-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+.order-section p {
+    color:rgb(170, 170, 170);
+    font-size: 1.7vmin;
+}
+
+.order-price-vol button {
+    padding: 1em;
+    width: 30%; 
+}
+
+.order-price-vol button:hover {
+    background-color: #1a1f2c;
+}
+
+.open-orders, .filled-orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.order-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    color: #FA735B;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    color:rgb(170, 170, 170);
+    position: relative;
+}
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    color:#7b7b7b;
+    position: relative;
+}
+
+.app-id {
+    color:#f6e57c;
+}
+.deal-id {
+    color:white;
+}
+
+.apprestrict-input {
+    display: flex; 
+    flex-direction: column;
+    width: 80%;
+    text-align: left;
+}
+
+.apprestrict-input div {
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 1em;
+}
+
+.apprestrict-input button {
+    width: 30%;
+    border-radius: 5px;
+}
